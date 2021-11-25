@@ -12,7 +12,7 @@ export default function Message({ message, own, user }) {
           src={
             own
               ? PF + user.profilePicture
-              : 
+              : PF + "person/noAvatar.png"
           }
           alt=""
         />
